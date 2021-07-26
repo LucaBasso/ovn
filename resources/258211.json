@@ -1,0 +1,63 @@
+{
+    "A": {
+        "connected_nodes": [
+            "C",
+            "E"
+        ],
+        "position": [
+            -57338,
+            -174840
+        ]
+    },
+    "B": {
+        "connected_nodes": [
+            "C",
+            "E"
+        ],
+        "position": [
+            108411,
+            485957
+        ]
+    },
+    "C": {
+        "connected_nodes": [
+            "D",
+            "F"
+        ],
+        "position": [
+            358739,
+            304504
+        ]
+    },
+    "D": {
+        "connected_nodes": [
+            "E",
+            "F"
+        ],
+        "position": [
+            -377248,
+            38244
+        ]
+    },
+    "E": {
+        "connected_nodes": [
+            "A",
+            "B",
+            "C"
+        ],
+        "position": [
+            329575,
+            106386
+        ]
+    },
+    "F": {
+        "connected_nodes": [
+            "A",
+            "C"
+        ],
+        "position": [
+            547171,
+            -177491
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+s=[0,1,2,3,4,5,6,7,8]
+sslen=len(s)//3
+#print(s[4:1:-1])
+a=(s[sslen-1::-1])
+b=(s[(2*sslen)-1:sslen-1:-1])
+c=(s[:2*sslen-1:-1])
+print(a)
+print(b)
+print(c)
