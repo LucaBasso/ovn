@@ -1,3 +1,5 @@
+/.idea/
+
 #older versions I created before using GitHub
 /core/elements_6th_lab.py
 /core/elements_8th_lab.py
@@ -15,7 +17,8 @@
 #folder with various pdfs
 /Assignments
 
-/.idea/
+#main of a classmate we used to compare results
+resources/prova.json
 
 #exercises not related to the final project
 /1-Lab1/
