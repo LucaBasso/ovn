@@ -17,6 +17,7 @@ Rs=32e9
 Bn=12.5e9
 f=193.414e12
 
+Luca="simpaticissimo"
 
 class Node:
     """Class representing a node of the network"""
