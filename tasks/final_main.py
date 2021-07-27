@@ -28,9 +28,6 @@ def main():
                 print("No accepted connections")
                 meanCapacity=0
                 meanSNR=0
-            #if M>=3:
-            #    print(f"{strategy} with M={M}\nTotal allocated bitrate: {totalCapacity}\n\tmean capacity: {meanCapacity}\n"
-            #          f"Accepted connections {len(capacities)}\nMean SNR={meanSNR}\nTotal SNR={totalSNR}\n")
             print(f"{strategy} with M={M}\nTotal allocated bitrate: {totalCapacity}\n\tmean capacity: {meanCapacity}\n"
                   f"Accepted connections {len(capacities)}\nMean SNR={meanSNR}\nTotal SNR={totalSNR}\n")
 
@@ -41,7 +38,7 @@ def main():
             plt.title(strategy+" with M= "+str(M))
             plt.xlabel("Capacity in Gbps")
             plt.ylabel("Number of connections")
-            plt.show()
+            #plt.show()
 
             plt.figure(9*M)
             #bins = np.linspace(2.6e15, 2.9e15, 29-25)
@@ -50,8 +47,6 @@ def main():
             plt.title(strategy+" with M= "+str(M))
             plt.xlabel("SNR")
             plt.ylabel("Number of connections")
-            # if M>=5:
-            #     g.show()
             #plt.show()
 
             M+=1

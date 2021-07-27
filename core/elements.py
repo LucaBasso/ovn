@@ -58,7 +58,7 @@ class Line:
     #These values are here because we assume the every piece of fiber has the same characteristics
     alpha_dB=0.2e-3 #db/m
     alpha=alpha_dB/(20*math.log(math.e,10))
-    beta_2=2.13e-26 #ps^2/km ?legato alla dispersione cromatica?
+    beta_2= 2.13e-26 #0.6e-26 #ps^2/km ?legato alla dispersione cromatica?
     gamma=1.27e-3 #1/(W*m)
     df=50e9 #Hz
 
@@ -69,7 +69,7 @@ class Line:
         self._state=[1 for i in range(NUMBER_OF_CHANNELS)]
         self._n_amplifiers=self._length//80e3
         self._gain=16 #dB
-        self._noise_figure=3 #dB
+        self._noise_figure=3 #5 #dB
         self._eta_nli=(16 / (27 * math.pi)) * \
                math.log(((math.pi ** 2) / 2) *
                         (self.beta_2 * (Rs ** 2) / self.alpha) *
