@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def main():
     filename="../resources/258211.json"
-    for strategy in ["shannon"]:#["fixed_rate","flex_rate","shannon"]:
+    for strategy in ["fixed_rate","flex_rate","shannon"]:
         net=Network(filename,transceiver=strategy)
 
         M=1
@@ -41,8 +41,7 @@ def main():
             plt.title(strategy+" with M= "+str(M))
             plt.xlabel("Capacity in Gbps")
             plt.ylabel("Number of connections")
-            # if M>=5:
-            #     f.show()
+            plt.show()
 
             plt.figure(9*M)
             #bins = np.linspace(2.6e15, 2.9e15, 29-25)
@@ -53,7 +52,7 @@ def main():
             plt.ylabel("Number of connections")
             # if M>=5:
             #     g.show()
-            plt.show()
+            #plt.show()
 
             M+=1
 
