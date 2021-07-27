@@ -1,6 +1,7 @@
 a=int(input("Insert a: "))
 b=int(input("Insert b: "))
 d="Luca"
+e="psodfjdpoojd"
 
 c=a*b
 if c>1000:
