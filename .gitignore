@@ -9,7 +9,12 @@
 /tasks/8-main_lab_8.py
 /tasks/mymain.py
 
+#folder with various pdfs
+/Assignments
+
 #useless main only used for tests
 /tasks/prove.py
 
 /.idea/
+
+/1-Lab1
