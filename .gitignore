@@ -1,4 +1,15 @@
 #older versions I created before using GitHub
 /core/elements_6th_lab.py
+/core/elements_8th_lab.py
+
+#old mains not useful anymore
+/tasks/4-main_Lab4.py
+/tasks/5-main_Lab5.py
+/tasks/7-main_lab_7.py
+/tasks/8-main_lab_8.py
+/tasks/mymain.py
+
+#useless main only used for tests
+/tasks/prove.py
 
 /.idea/
